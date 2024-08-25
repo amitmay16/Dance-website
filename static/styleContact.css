@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Grey+Qo&family=Macondo&family=Matemasie&family=Playwrite+CU:wght@100..400&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    font-size: 12px;
+    width:40%;
+    padding:9px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+
+}
+.btn{
+    padding: 12px 16px;
+    font-size:18px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(197, 47, 47, 0.925);
+    cursor: pointer;
+    outline: none;
+    margin: 26px;
+}
+
+.container{
+    min-height: 80vh;
+    margin: 43px 0;
+   
+
+}
+.container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+
+
+}

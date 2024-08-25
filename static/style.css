@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Grey+Qo&family=Macondo&family=Matemasie&family=Playwrite+CU:wght@100..400&family=Qwitcher+Grypen:wght@400;700&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display:flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height:42px;
+    
+}
+
+#navbar{
+    background-color: rgb(197, 52, 52);
+    padding: 13px 14px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 35px;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#navbar li{
+    list-style:none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 20px;
+    font-size: 30px;
+}
+#navbar li a:hover{
+    color: rgb(14, 14, 14);
+    
+}
+#introSection{
+    padding-bottom: 40px;
+    font-family: "Macondo", cursive;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+    background-color: rgb(219, 41, 41);
+    background: center/cover no-repeat url('/static/bg.jpg');
+}
+#introSection div.small{
+    font-size: 32px;
+    padding: 5px;
+
+}
+
+#sponsorSection{
+    height: 300px;
+    background-color: rgb(194, 180, 180);
+}
+
+#sponsorSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: "Macondo", cursive;
+    margin-top: 32px;
+}
+#missionSection{
+    height: 300px;
+    margin: auto;
+    width: 67%;
+    
+}
+
+#missionSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: "Macondo", cursive;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width:30%;
+    margin: 20px 8px;
+    height:180px;
+}
+.card h3{
+    text-align: center;
+    margin:5px;
+    margin-top: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height:131px;
+    padding:0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height:inherit;
+
+}
+.card-content{
+    padding: 0px 19px;
+
+}
+.card-content p{
+    font-size: 12px;
+    
+}
+#footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+}
+.spImage{
+    height:80%;
+    margin:20px;
+}
+#sponsors{
+    height:191px;
+    max-width: 1000px;
+    margin: 27px auto;
+    font-family: "Qwitcher Grypen", cursive;
+}
